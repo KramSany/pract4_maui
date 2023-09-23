@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="pract4.MainPage">
+
+    <StackLayout>
+        <Label Padding="5" FontAutoScalingEnabled="False" VerticalOptions="Fill"
+               Text="Составить программу, которая бы выдавала название месяца, следующего завведенным месяцем (с учетом того, что за декабрем идет январь)."></Label>
+
+    </StackLayout>
+
+</ContentPage>

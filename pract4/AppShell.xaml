@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="pract4.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:pract4"
+    Shell.FlyoutBehavior="Disabled">
+
+    <TabBar>
+        <Tab Title="About">
+            <ShellContent Title="Task"
+                          ContentTemplate="{DataTemplate local:MainPage}">
+            </ShellContent>
+        </Tab>
+        <Tab Title="Solving">
+            <ShellContent Title="RadioButton"
+                          ContentTemplate="{DataTemplate local:firstPage}">
+            </ShellContent>
+            <ShellContent Title="Default"
+                          ContentTemplate="{DataTemplate local:secondPage}">
+            </ShellContent>
+        </Tab>
+
+
+    </TabBar>
+
+</Shell>
